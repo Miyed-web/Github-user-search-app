@@ -183,6 +183,12 @@ ul{
  color: #ffffff;
  font-weight: 700;
 }
+.ullist .userblog {
+  overflow-x: scroll;
+}
+.ullist .userblog::-webkit-scrollbar{
+  display: none;
+}
 .ullist li{
   display: flex;
   align-items: center;
@@ -209,8 +215,12 @@ ul{
 .learn-more .learnMore{
   text-decoration: none;
   color: #0666fc;
-  border: 0;
-  font-size: 16px;
+  font-size: 14px;
+  text-align: left;
+  overflow-x: scroll;
+}
+.learn-more span::-webkit-scrollbar{
+  display: none;
 }
 @media (min-width:990px){
   .links-address{
