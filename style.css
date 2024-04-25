@@ -204,7 +204,7 @@ ul{
   font-size: 12px;
   margin-left: 8px;
 }
-.learn-more  p{
+.learn-more  p:not(.learnMore){
   color: #fff;
   font-size: 14px;
   border-bottom:1px solid #0666fc;
@@ -219,7 +219,7 @@ ul{
   text-align: left;
   overflow-x: scroll;
 }
-.learn-more span::-webkit-scrollbar{
+.learn-more .learnMore::-webkit-scrollbar{
   display: none;
 }
 @media (min-width:990px){
