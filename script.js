@@ -85,4 +85,9 @@ catch(e){
   }, 3000);
 }
 }
-searchbtn.addEventListener("click", userSearch)
+searchbtn.addEventListener("click", userSearch);
+inputfield.addEventListener("keydown",(e )=>{
+  if (e.key==="Enter") {
+  userSearch()  
+  }
+})
