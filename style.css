@@ -204,7 +204,7 @@ ul{
   font-size: 12px;
   margin-left: 8px;
 }
-.learn-more  p:not(.learnMore){
+.learn-more  p{
   color: #fff;
   font-size: 14px;
   border-bottom:1px solid #0666fc;
