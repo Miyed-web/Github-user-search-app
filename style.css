@@ -204,6 +204,12 @@ ul{
   font-size: 12px;
   margin-left: 8px;
 }
+.learn-more{
+  display:flex;
+  flex-direction:column;
+  position:reletive;
+  width:100%;
+}
 .learn-more  p{
   color: #fff;
   font-size: 14px;
@@ -212,14 +218,14 @@ ul{
   margin-bottom: 10px;
   padding-bottom: 2px;
 }
-.learn-more .learnMore{
+.learn-more a{
   text-decoration: none;
   color: #0666fc;
   font-size: 14px;
   text-align: left;
   overflow-x: scroll;
 }
-.learn-more .learnMore::-webkit-scrollbar{
+.learn-more a::-webkit-scrollbar{
   display: none;
 }
 @media (min-width:990px){
