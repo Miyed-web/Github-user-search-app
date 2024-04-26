@@ -221,13 +221,10 @@ ul{
 .learn-more a{
   text-decoration: none;
   color: #0666fc;
-  font-size: 14px;
-  text-align: left;
-  overflow-x: scroll;
+  font-size: 16px;
+  
 }
-.learn-more a::-webkit-scrollbar{
-  display: none;
-}
+
 @media (min-width:990px){
   .links-address{
     display: flex;
