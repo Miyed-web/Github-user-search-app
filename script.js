@@ -74,7 +74,7 @@ async function userSearch(){
     usertwitter.style.color= "#f5f5f5dd"
   }
   
-  learnMore.textContent=`${data.html_url}`;
+
   learnMore.href=`${data.html_url}`;
 }
 catch(e){
